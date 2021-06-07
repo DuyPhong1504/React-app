@@ -1,0 +1,15 @@
+import React from 'react'
+
+const Footer = () => {
+    return (
+        <footer className="container footer navbar-fixed-bottom bg-danger" style={{width: "100%"}}>
+            <div className="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+            </div>
+        </footer>
+        
+
+    )
+}
+
+export default Footer

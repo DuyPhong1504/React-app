@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
+  text-align: center;  
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +12,17 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.background {
+  position: relative;
+  width: 100%;
+  min-height: 1000px;
+  background-image: url(https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 
 .App-header {
